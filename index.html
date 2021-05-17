@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="normalize.css"/>
+        <link rel="stylesheet" href="mainv3.0.css"/>
+ 
+
+    </head>
+    <body>
+        <div id="healthbars">
+            <div class="playerHealth">
+                <h2>player health</h2>
+                <h2 id="playerHealthField">5</h2>
+            </div>
+            <div class="robotHealth">
+                <h2>computer health</h2>
+                <h2 id="computerHealthField">5</h2>
+            </div>
+        </div>
+        <div id="weapons">
+            <h1>Choose your weapon!</h1>
+            <div id="playerWeapon">
+                <h2 class="weapon" id="rock">Rock</h2>
+                <h2 class="weapon" id="paper">Paper</h2>
+                <h2 class="weapon" id="scissors">Scissors</h2>
+            </div>
+            <div id="computerWeapon">
+
+            </div>
+
+        </div>
+        <h2 id="shoot" onclick="playRound()">Shoot!</h2>
+        <h2 id="computerChoice"></h2>
+        <h2 id="result"></h2> 
+
+    </body>
+    <script type="text/javascript" src="RPSlogicv3.0.js"></script>
+</html>

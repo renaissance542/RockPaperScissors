@@ -17,12 +17,13 @@ body {
 
 #shoot {
     visibility: hidden;
+    width: 30%;
 }
 
 #shoot:hover {
     border-style: solid;
-    border-radius: 2px;
-    border-color: violet;
+    border-radius: 5px;
+    border-color:yellow;
 }
 #healthbars {
     display: flex;
